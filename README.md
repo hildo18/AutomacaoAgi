@@ -1,5 +1,5 @@
 ## Automacao Agi
-Este é um repositório que contém a automação de alguns testes automatizados web. Os sub-tópicos abaixo descrevem algumas ações tomadas na estrutução do projeto.
+Este é um repositório que contém a automação de alguns cenários levantados para o blog Agi. Os sub-tópicos abaixo descrevem algumas ações tomadas na estrutução do projeto.
 
 
 ## Tecnologias utilizadas
@@ -21,15 +21,14 @@ Testes para validar consultas de itens usando o mecanimo de busca na tela inicia
 
 ## Notas Gerais
 
-- Nesse projeto fazemos o uso do JUNIT 5, o que nos dá a possibilidade  
-  de usar a notação DisplayName para dar descrições em português em  
-  nossos testes.
-- Foi utilizado também o formato Page Objects, para separar a manipulaçãos dos elementos da tela, dos testes, facilitando a organização e a reutilização de código.
+- Nesse projeto fazemos o uso do JUNIT 5, o que nos dá a possibilidade de usar a notação DisplayName para dar descrições em português em  nossos testes.
+- Foi utilizado também o formato Page Objects, para separar a manipulação dos elementos da tela e dos testes, facilitando a organização e a reutilização de código.
 
 ## Plano de Testes
 
 **Informações Gerais:**
 Um Plano de testes para clarificar a todos os envolvidos o que será testado
+
 Identificador único: #3123
 
 Organização Responsável: Agi
@@ -41,7 +40,6 @@ Aprovadores: Hildo
 - Verificar carregamento da tela inicial
 - Pesquisar por item não existem
 - Pesquisar por item existente
-
 
 **Critérios de conclusão:**
 100% dos incidentes com prioridade média e alta corrigidos.
